@@ -7,3 +7,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.Home {
+	background-image: url("../public/publicImages/home-bg.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}

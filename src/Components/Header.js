@@ -15,8 +15,8 @@ import {
 
 const Header = () => {
 	return (
-		<header className="flex justify-between md:justify-around items-center">
-			<img src={logo} className=" w-[70px] h-[70px] mix-blend-lighten" alt="" />
+		<header className="flex justify-between md:justify-around items-center p-2 h-[10vh] sticky top-0 bg-[#2f3030] z-10">
+			<img src={logo} className=" w-[70px] h-full mix-blend-lighten" alt="" />
 			<div className=" gap-4 hidden md:flex">
 				{navlinkData.map((item, idx) => (
 					<NavLink
@@ -50,9 +50,8 @@ const Header = () => {
 						data-aos-anchor-placement="bottom-bottom"
 					>
 						{navlinkData.map((item, idx) => (
-							<MenuItem background="#2f3030">
+							<MenuItem background="#2f3030" key={idx}>
 								<NavLink
-									key={idx}
 									to={item.url}
 									className={({ isActive }) =>
 										` hover:text-green-500  sm:text-base lg:text-xl ${

@@ -35,12 +35,12 @@ function App() {
 	}, []);
 
 	return (
-		<div className="p-2 min-h-screen">
+		<div className=" min-h-screen relative pb-[150px]">
 			<ChakraProvider theme={theme}>
 				<BrowserRouter>
 					<Header />
 					<Routes>
-						<Route path="/" element={<Home />} />
+						<Route exact path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
 						<Route path="/blog" element={<Blogs />} />
 						<Route path="/contact" element={<Contact />} />
