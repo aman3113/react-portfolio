@@ -8,9 +8,16 @@
 	box-sizing: border-box;
 }
 
-.Home {
-	background-image: url("../public/publicImages/home-bg.png");
+.Home,
+.Tech {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+}
+
+.Home {
+	background-image: url("../public/publicImages/home-bg.png");
+}
+.Tech {
+	background-image: url("../public//publicImages/testimonials-bg.png");
 }

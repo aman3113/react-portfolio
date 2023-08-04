@@ -6,7 +6,7 @@ const About = () => {
 		<section className="min-h-[90vh] sm:flex items-center">
 			<div className="sm:w-[50%]  py-[50px] p-6">
 				<p
-					className="text-xl text-green-500 md:text-3xl font-bold pb-4"
+					className="text-2xl sm:text-3xl text-green-500 md:text-4xl font-bold  py-[50px]"
 					data-aos="fade-down-right"
 				>
 					About Me
