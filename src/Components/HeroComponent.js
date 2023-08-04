@@ -1,5 +1,5 @@
 import React from "react";
-import Lottie, { useLottie } from "lottie-react";
+import Lottie from "lottie-react";
 import Typewriter from "typewriter-effect";
 import animationData from "../Images/home-lottie.json";
 

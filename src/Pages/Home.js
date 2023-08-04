@@ -1,5 +1,6 @@
 import HeroComponent from "../Components/HeroComponent";
 import About from "./About";
+import Services from "./Services";
 import Tech from "./Tech";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 			<HeroComponent />
 			<About />
 			<Tech />
+			<Services />
 		</div>
 	);
 };
