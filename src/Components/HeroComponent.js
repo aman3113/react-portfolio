@@ -7,7 +7,7 @@ const HeroComponent = () => {
 	return (
 		<section className="min-h-[90vh] Home">
 			<div className="md:flex-row flex flex-col-reverse w-full min-h-[90vh] items-center">
-				<div className="md:w-[50%]">
+				<div className="md:w-[40%]">
 					<Lottie
 						data-aos="fade-left"
 						className="mx-auto"
@@ -15,7 +15,7 @@ const HeroComponent = () => {
 						style={{ width: "80%", maxWidth: "400px" }}
 					/>
 				</div>
-				<div className="md:w-[50%] flex flex-col gap-4 items-center py-[50px] px-2 md:items-start">
+				<div className="md:w-[60%] flex flex-col gap-4 items-center py-[50px] px-2 md:items-start">
 					<p
 						className="text-xl md:text-2xl font-bold"
 						data-aos="fade-down-right"
@@ -35,7 +35,7 @@ const HeroComponent = () => {
 						/>
 					</h1>
 					<p
-						className="text-sm text-center md:text-base md:text-left"
+						className="text-sm text-center md:text-base md:text-left md:w-[80%]"
 						data-aos="fade-up-right"
 					>
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,

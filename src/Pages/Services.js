@@ -4,7 +4,7 @@ import { serviceData } from "../data/data";
 
 const Services = () => {
 	return (
-		<section className="min-h-[90vh] p-4">
+		<section className="min-h-[90vh] p-4 pb-6">
 			<p
 				className="text-3xl text-green-500 md:text-4xl font-bold text-center  py-[50px]"
 				data-aos="fade-down-right"

@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap");
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Tektur", "cursive";
+	letter-spacing: 0.4px;
 }
 
 .Home,
@@ -20,4 +23,8 @@
 }
 .Tech {
 	background-image: url("../public//publicImages/testimonials-bg.png");
+}
+
+.Project {
+	background-image: url("../public//publicImages/some-facts-bg.png");
 }

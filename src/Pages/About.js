@@ -11,7 +11,7 @@ const About = () => {
 				>
 					About Me
 				</p>
-				<p data-aos="fade-up-right" className="p-3">
+				<p data-aos="fade-up-right" className="pl-3">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
 					nesciunt aliquid voluptatum reiciendis adipisci optio quidem cum
 					officiis ipsam laborum? Laborum dolorem minima sapiente ullam
@@ -23,7 +23,7 @@ const About = () => {
 			</div>
 			<div className="p-2 sm:w-[50%]">
 				<img
-					data-aos="fade-left"
+					data-aos="fade-up"
 					src={profile}
 					alt=""
 					className=" mx-auto w-[300px] md:w-[400px] max-w-[90vw]"
