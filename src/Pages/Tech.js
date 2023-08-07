@@ -15,6 +15,7 @@ const Tech = () => {
 					<div
 						key={idx}
 						data-aos="flip-down"
+						data-aos-duration="1500"
 						className=" flex flex-col justify-between bg-[#212222] p-4 w-[150px] lg:w-[180px] rounded-lg pt-5 pb-2 shadow-md shadow-black"
 					>
 						<img className="w-full" src={item.src} alt="" />
