@@ -35,7 +35,7 @@ function App() {
 	}, []);
 
 	return (
-		<div className=" min-h-screen relative pb-[150px]">
+		<div className=" min-h-screen relative">
 			<ChakraProvider theme={theme}>
 				<BrowserRouter>
 					<Header />

@@ -6,7 +6,7 @@ const Tech = () => {
 		<section className="min-h-[90vh] flex flex-col items-center Tech">
 			<p
 				className="text-2xl sm:text-3xl text-green-500 md:text-4xl font-bold  py-[50px]"
-				data-aos="fade-down-right"
+				data-aos="fade-down"
 			>
 				Tools and Technologies
 			</p>
@@ -14,7 +14,7 @@ const Tech = () => {
 				{techData.map((item, idx) => (
 					<div
 						key={idx}
-						data-aos="fade-up"
+						data-aos="flip-down"
 						className=" flex flex-col justify-between bg-[#212222] p-4 w-[150px] lg:w-[180px] rounded-lg pt-5 pb-2 shadow-md shadow-black"
 					>
 						<img className="w-full" src={item.src} alt="" />

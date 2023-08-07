@@ -23,10 +23,10 @@ export const navlinkData = [
 		url: "/project",
 		text: "Projects",
 	},
-	{
-		url: "/testimonial",
-		text: "Testimonials",
-	},
+	// {
+	// 	url: "/testimonial",
+	// 	text: "Testimonials",
+	// },
 	{
 		url: "/blog",
 		text: "Blog",
@@ -70,7 +70,7 @@ export const serviceData = [
 		animation: webDesignAnimation,
 		title: "Web Design",
 		description:
-			"Designing captivating user interfaces that impress the users with stunning visuals, intuitive navigation, responsive layouts and ease of use.",
+			"Designing captivating user interfaces that impress the users with stunning visuals, intuitive navigation and ease of use.",
 	},
 	{
 		id: 2,
@@ -84,7 +84,7 @@ export const serviceData = [
 		animation: webResponsiveAnimation,
 		title: "Responsive Layouts",
 		description:
-			"Designing captivating user interfaces that impress the users with stunning visuals, intuitive navigation, responsive layouts and ease of use.",
+			"One stop for all your devices. Code that handles mobile devices to tablets to your laptop and monitor screens.",
 	},
 ];
 
@@ -151,5 +151,32 @@ export const projectsData = [
 		name: "Brand",
 		category: "Full Stack",
 		title: "Brex Logo",
+	},
+];
+
+export const blogData = [
+	{
+		id: 1,
+		title: "Master These Awesome",
+		date: "Jun 27, 2022",
+		author: "Dorian Gray",
+		desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+		cover: "./publicImages/blog/b1.png",
+	},
+	{
+		id: 2,
+		title: "Best Design Items to Appeal",
+		date: "Jun 27, 2022",
+		author: "Dorian Gray",
+		desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+		cover: "../publicImages/blog/b2.png",
+	},
+	{
+		id: 3,
+		title: "The 20 Best Lightroom Presets",
+		date: "Jun 27, 2022",
+		author: "Dorian Gray",
+		desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+		cover: "../publicImages/blog/b3.png",
 	},
 ];

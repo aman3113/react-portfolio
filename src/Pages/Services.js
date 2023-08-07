@@ -7,7 +7,7 @@ const Services = () => {
 		<section className="min-h-[90vh] p-4 pb-6">
 			<p
 				className="text-3xl text-green-500 md:text-4xl font-bold text-center  py-[50px]"
-				data-aos="fade-down-right"
+				data-aos="fade-down"
 			>
 				What Do I do?
 			</p>
@@ -16,6 +16,9 @@ const Services = () => {
 					<div
 						key={item.id}
 						className="bg-[#212222] p-2 rounded-md shadow-md shadow-black w-[80%] max-w-[400px] md:max-w-[350px]"
+						data-aos="zoom-in"
+						data-aos-delay="300"
+						data-aos-duration="1500"
 					>
 						<Lottie
 							className="mx-auto"

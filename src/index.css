@@ -18,7 +18,8 @@
 	background-size: cover;
 }
 
-.Home {
+.Home,
+.Contact {
 	background-image: url("../public/publicImages/home-bg.png");
 }
 .Tech {

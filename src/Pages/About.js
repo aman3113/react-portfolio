@@ -11,14 +11,16 @@ const About = () => {
 				>
 					About Me
 				</p>
-				<p data-aos="fade-up-right" className="pl-3">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-					nesciunt aliquid voluptatum reiciendis adipisci optio quidem cum
-					officiis ipsam laborum? Laborum dolorem minima sapiente ullam
-					praesentium dolore repellat possimus minus? Lorem ipsum dolor sit amet
-					consectetur adipisicing elit. Enim voluptas possimus harum quam
-					voluptatibus nulla sint sunt quibusdam, quas commodi quos tempora
-					fugit eius accusantium quod ex magni qui? Suscipit.
+				<p data-aos="fade-up" className="pl-3">
+					Web developer with a strong passion for creating innovative and
+					visually appealing web solutions. Proficient in front-end and back-end
+					development, utilizing HTML, CSS, JavaScript, React, Tailwind CSS,
+					Redux, and some library components like Chakra UI. Skilled in building
+					responsive interfaces, optimizing website performance, and
+					implementing intuitive user experiences. Completed diverse projects,
+					including e-commerce platforms and dynamic web applications. Dedicated
+					to staying up-to-date with the latest industry trends and technologies
+					to deliver cutting-edge solutions.
 				</p>
 			</div>
 			<div className="p-2 sm:w-[50%]">
