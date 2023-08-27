@@ -62,7 +62,7 @@ const Projects = () => {
 						<img src={item.cover} className="w-full" alt="" />
 						<div className="p-3 absolute top-0 bottom-0 left-0 right-0 bg-[#2f3030] bg-opacity-100 opacity-0 shadow-md shadow-black text-white group-hover:opacity-100 transition hover:border-8 border-black rounded-md ease-in duration-1000 flex items-center justify-center">
 							<div className="h-full w-full flex flex-col items-center justify-center">
-								<h3 className="font-bold text-xl">{item.title}</h3>
+								<h3 className="font-bold text-sm  sm:text-xl">{item.title}</h3>
 								<span className="font-semibold">{item.name}</span>
 								<div className="flex justify-between items-center w-full">
 									<a
