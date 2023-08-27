@@ -11,18 +11,24 @@ const Footer = () => {
 				<a
 					href="www.linkedin.com/in/antilaman3113"
 					className="hover:text-yellow-500 hover:scale-110"
+					target="_blank"
+					rel="noreferrer"
 				>
 					<BsLinkedin size={25} />
 				</a>
 				<a
 					href="https://twitter.com/AntilAman3113"
 					className="hover:text-yellow-500 hover:scale-110"
+					target="_blank"
+					rel="noreferrer"
 				>
 					<BsTwitter size={25} />
 				</a>
 				<a
 					href="https://github.com/aman3113"
 					className="hover:text-yellow-500 hover:scale-110"
+					target="_blank"
+					rel="noreferrer"
 				>
 					<BsGithub size={25} />
 				</a>
