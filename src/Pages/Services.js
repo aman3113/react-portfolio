@@ -28,7 +28,7 @@ const Services = () => {
 						<p className="text-xl font-bold text-center text-green-500 py-5">
 							{item.title}
 						</p>
-						<p className="p-3">{item.description}</p>
+						<p className="p-3 font-sans">{item.description}</p>
 					</div>
 				))}
 			</div>

@@ -11,7 +11,7 @@ const About = () => {
 				>
 					About Me
 				</p>
-				<p data-aos="fade-up" className="pl-3">
+				<p data-aos="fade-up" className="pl-3 font-serif">
 					Web developer with a strong passion for creating innovative and
 					visually appealing web solutions. Proficient in front-end and back-end
 					development, utilizing HTML, CSS, JavaScript, React, Tailwind CSS,

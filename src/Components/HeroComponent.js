@@ -34,24 +34,24 @@ const HeroComponent = () => {
 					>
 						<Typewriter
 							options={{
-								strings: ["AMAN ANTIL", "WEB DEVELOPER", "UI/UX DESIGNER"],
+								strings: ["AMAN KUMAR", "WEB DEVELOPER", "UI/UX DESIGNER"],
 								autoStart: true,
 								loop: true,
 							}}
 						/>
 					</h1>
 					<p
-						className="text-sm text-center md:text-base md:text-left w-[80%] sm:w-[60%] md:w-[80%]"
+						className="text-base text-center  md:text-left w-[80%] sm:w-[60%] md:w-[80%] font-serif"
 						data-aos="fade-up-left"
 					>
 						A proactive learner and team player, I strive for user-centered
 						design. Let's build something amazing together!
 					</p>
-					<div className="flex gap-4">
+					<div className="flex gap-4 flex-col sm:flex-row">
 						<a
 							href={resumeUrl}
 							download="Aman Kumar Resume.pdf"
-							className="py-3 px-6 bg-green-700 text-white rounded-3xl text-lg hover:scale-110 hover:bg-green-500 cursor-pointer"
+							className="py-3 px-6 bg-green-700 text-white rounded-3xl text-center text-lg hover:scale-110 hover:bg-green-500 cursor-pointer"
 							data-aos="fade-up"
 						>
 							Download Resume
@@ -61,7 +61,7 @@ const HeroComponent = () => {
 							href={viewUrl}
 							target="_blank"
 							download="Aman Kumar Resume.pdf"
-							className="py-3 px-6 bg-green-700 text-white rounded-3xl text-lg hover:scale-110 hover:bg-green-500 cursor-pointer"
+							className="py-3 px-6 bg-green-700 text-white rounded-3xl text-center text-lg hover:scale-110 hover:bg-green-500 cursor-pointer"
 							data-aos="fade-up"
 							rel="noreferrer"
 						>

@@ -24,7 +24,7 @@ const Blogs = () => {
 						<p className="font-semibold pl-3 text-green-500">
 							By {item.author}
 						</p>
-						<p className="p-3">{item.desc}</p>
+						<p className="p-3 font-serif">{item.desc}</p>
 					</div>
 				))}
 			</div>
