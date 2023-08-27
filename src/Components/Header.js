@@ -17,7 +17,7 @@ import {
 
 const Header = () => {
 	return (
-		<header className="flex justify-between md:justify-around items-center p-2 h-[15vh] sticky top-0 bg-[#2f3030] z-10">
+		<header className="flex justify-between md:justify-around items-center p-2 min-h-[80px] h-[15vh] sticky top-0 bg-[#2f3030] z-10">
 			<motion.img
 				drag
 				dragSnapToOrigin={true}
