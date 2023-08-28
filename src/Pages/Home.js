@@ -1,4 +1,6 @@
 import { lazy } from "react";
+import { Analytics } from "@vercel/analytics/react";
+
 import HeroComponent from "../Components/HeroComponent";
 import About from "./About";
 import Blogs from "./Blogs";
@@ -18,6 +20,7 @@ const Home = () => {
 			<LazyServices />
 			<Blogs />
 			<Contact />
+			<Analytics />
 		</div>
 	);
 };
