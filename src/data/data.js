@@ -55,13 +55,25 @@ export const techData = [
 		name: "React",
 		src: "./publicImages/tech/react.png",
 	},
-	{
-		name: "Tailwind",
-		src: "./publicImages/tech/tailwind.png",
-	},
+	// {
+	// 	name: "Tailwind",
+	// 	src: "./publicImages/tech/tailwind.png",
+	// },
 	{
 		name: "Git",
 		src: "/publicImages/tech/git.png",
+	},
+	{
+		name: "MongoDB",
+		src: "/publicImages/tech/mongo.png",
+	},
+	{
+		name: "TypeScript",
+		src: "/publicImages/tech/typescript.png",
+	},
+	{
+		name: "Node",
+		src: "/publicImages/tech/node.png",
 	},
 ];
 
@@ -138,12 +150,12 @@ export const projectsData = [
 	},
 	{
 		id: 6,
-		cover: "../publicImages/projects/IMDB.png",
+		cover: "../publicImages/projects/xneo-fit.png",
 		name: "Brand",
 		category: "Full Stack",
-		title: "Movie Watchlist",
-		githubLink: "https://github.com/aman3113/machine-coding-round-11",
-		liveLink: "https://movie-watchlist-jet-theta.vercel.app/",
+		title: "Xneo Fit",
+		githubLink: "https://github.com/aman3113/Xneo_Fit",
+		liveLink: "https://xneo-fit.vercel.app/",
 	},
 	{
 		id: 7,

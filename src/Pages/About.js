@@ -14,9 +14,9 @@ const About = () => {
 				<p data-aos="fade-up" className="pl-3 font-serif">
 					Web developer with a strong passion for creating innovative and
 					visually appealing web solutions. Proficient in front-end and back-end
-					development, utilizing HTML, CSS, JavaScript, React, Tailwind CSS,
-					Redux, and some library components like Chakra UI. Skilled in building
-					responsive interfaces, optimizing website performance, and
+					development, utilizing HTML, CSS, JavaScript, React, Node, Redux,
+					MongoDB and some library components like Chakra UI. Skilled in
+					building responsive interfaces, optimizing website performance, and
 					implementing intuitive user experiences. Completed diverse projects,
 					including e-commerce platforms and dynamic web applications. Dedicated
 					to staying up-to-date with the latest industry trends and technologies
