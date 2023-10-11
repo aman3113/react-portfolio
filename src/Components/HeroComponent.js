@@ -5,10 +5,10 @@ import animationData from "../Images/home-lottie.json";
 
 const HeroComponent = () => {
 	const viewUrl =
-		"https://www.dropbox.com/scl/fi/r3u6eza7l7zxa6tp6vh7v/Aman-Resume.pdf?rlkey=x2w2fj59bk89wx6eius43horw&dl=0";
+		"https://www.dropbox.com/scl/fi/a85v6oaxbgh4y6uxxv5nd/Aman-Resume.pdf?rlkey=7fzwlan3gwzxk1cjtdrmk0ab0&dl=0";
 
 	const resumeUrl =
-		"https://www.dropbox.com/scl/fi/r3u6eza7l7zxa6tp6vh7v/Aman-Resume.pdf?rlkey=x2w2fj59bk89wx6eius43horw&dl=1";
+		"https://www.dropbox.com/scl/fi/a85v6oaxbgh4y6uxxv5nd/Aman-Resume.pdf?rlkey=7fzwlan3gwzxk1cjtdrmk0ab0&dl=1";
 
 	return (
 		<section className="min-h-[90vh] Home">
